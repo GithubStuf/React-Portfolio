@@ -118,6 +118,7 @@ function App() {
   return (
     <>
       <div className="main-container">
+        <input type="hidden" value={activeStyle} />
         <Aside />
         <div className="main-content">
           <Home />
